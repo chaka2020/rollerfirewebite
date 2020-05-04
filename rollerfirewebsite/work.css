@@ -177,7 +177,7 @@ nav li li{
     }
 
     h1{
-    	font-size: 1rem;
+    	font-size: 0.5rem;
 	   font-family: "Agency FB", "Times New Roman", sans-serif;
 	   height: 150px;
 
@@ -279,10 +279,10 @@ nav li li{
     }
 	
 	header{
-	width: 96%;
+	width: 99%;
 	background: #524f49;
 	display: flex;
-	padding-left: 4%;
+	padding-left: 1%;
 	height: 160px;
 	margin-bottom: 1px;
 	}

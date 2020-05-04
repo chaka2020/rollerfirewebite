@@ -2,6 +2,7 @@ body{
 	background: white;
 	width: 100%;
 	margin: 0 auto;
+	padding: 0 auto;
 
 }
 
@@ -12,6 +13,12 @@ header{
 	font-family: "Agency FB", "Times New Roman", sans-serif;
 	padding-left: 2%;
 	height: 180px;
+}
+
+h1{
+   	font-size: 2rem;
+	font-family: "Agency FB", "Times New Roman", sans-serif;
+
 }
 header img{
 	width: 10%;
@@ -165,8 +172,15 @@ nav li li{
 {
 	  
     header img{
-      width: 10%;
-      height: 100px;
+      width: 15%;
+      height: 80px;
+    }
+
+    h1{
+    	font-size: 1rem;
+	   font-family: "Agency FB", "Times New Roman", sans-serif;
+	   height: 150px;
+
     }
   
   
@@ -189,9 +203,13 @@ nav li li{
     #section1 h2:after{
     	content: "Disciplines";
     	font-family: "Agency FB","Comic Sans MS","Times New Roman",sans-serif;
-    	font-size: 250%;
-    	color: #0ed814;
+    	font-size: 158%;
+    	color: white;
     	visibility: visible;
+    	display: block;
+    	float: left;
+        padding-left: 1%;
+	    padding-top: 40%;
 
 
     }
@@ -202,7 +220,7 @@ nav li li{
 		background: url('inline-4039073_1920.jpg');
 		background-size: 100%;
 		background-repeat: no-repeat;
-		margin-bottom: 10px;
+		display: block;
 
 	}
 
@@ -214,8 +232,10 @@ nav li li{
 
 		background: none;
 		width: 100%;
-		display: inline;
 		margin-top: 10px;
+		display: block;
+		padding-top: 1px;
+
 	}
 
 	#section2 h2{
@@ -247,7 +267,7 @@ nav li li{
 		flex-direction: column;
 		border: none;
 		margin-top: -160px;
-    margin-left: 45%;
+    margin-left: 40%;
 		
 	}
 	nav li{
@@ -262,10 +282,9 @@ nav li li{
 	width: 96%;
 	background: #524f49;
 	display: flex;
-	font-size: 70%;
-	font-family: "Agency FB", "Times New Roman", sans-serif;
 	padding-left: 4%;
 	height: 160px;
+	margin-bottom: 1px;
 	}
 
 	#section2 a{
